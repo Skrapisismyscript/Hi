@@ -88,4 +88,12 @@ elseif game.PlaceId == 5535087806 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shroomsss/main/main/CrucifyHub.lua"))()
 elseif game.PlaceId == 277751860 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SlamminPig/rblxgames/main/Epic%20Minigames/EpicMinigamesGUI"))()
+elseif game.PlaceId == 4972091010 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SlamminPig/rblxgames/main/Zombie%20Uprising/ZombieUprisingGUI"))()
+elseif game.PlaceId == 488667523 then
+loadstring(game:HttpGet('https://raw.githubusercontent.com/canerom/Roblox/main/Games/Those%20Who%20Remain.lua'))()
+elseif game.PlaceId == 2202352383 then
+loadstring(game:HttpGet('https://pastebin.com/raw/D9btNZUr', true))()
+elseif game.PlaceId == 537413528 then
+loadstring(game:HttpGet("https://dirtgui.xyz/ImageLoader.lua", true))()
 end
