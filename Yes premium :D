@@ -96,4 +96,7 @@ elseif game.PlaceId == 2202352383 then
 loadstring(game:HttpGet('https://pastebin.com/raw/D9btNZUr', true))()
 elseif game.PlaceId == 537413528 then
 loadstring(game:HttpGet("https://dirtgui.xyz/ImageLoader.lua", true))()
+elseif game.PlaceId == 6875469709 then
+getgenv().Toggle = true
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/SPS'),true))()
 end
