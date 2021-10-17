@@ -97,6 +97,12 @@ loadstring(game:HttpGet('https://pastebin.com/raw/D9btNZUr', true))()
 elseif game.PlaceId == 537413528 then
 loadstring(game:HttpGet("https://dirtgui.xyz/ImageLoader.lua", true))()
 elseif game.PlaceId == 6875469709 then
+
 getgenv().Toggle = true
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/SPS'),true))()
+	while wait(50) do
+game.Players.LocalPlayer:Kick("Hi cutie subscribing to srivathsanYTuber = PRO yk? (just wait it will rejoin automatically)", "skrapis is the best eh?", "Do u know that subscribing to srivathsanYTuber means goodluck?", "Wow this game is fun ngl now CLEAN MY SHOE!", "your the best!")
+wait(5)
+	game:GetService("TeleportService"):Teleport(6875469709, game.Players.LocalPlayer)
+	end
 end
