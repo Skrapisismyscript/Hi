@@ -129,4 +129,6 @@ end
 end
 elseif game.PlaceId == 606849621 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))();
+elseif game.PlaceId == 6284583030 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/si1nnx/psxx/main/g"))()
 end
