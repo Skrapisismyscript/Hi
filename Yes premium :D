@@ -137,5 +137,13 @@ repeat until http_request
 loadstring(http_request({Url="https://raw.githubusercontent.com/alphaalt0409/WEIRDAPPLEBEEPANEL/main/weirdapplebee.lua",Method="GET"}).Body)()
 elseif game.PlaceId == 6461766546 then
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/Soffware/3kTMd/main/HadesHub.lua"),true))()
+elseif game.PlaceId == 301549746 then
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CatzCode/PikaHub/main/main.lua"))()
+elseif game.PlaceId == 286090429 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CatzCode/PikaHub/main/main.lua"))()
+elseif game.PlaceId == 4169490976 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CatzCode/PikaHub/main/main.lua"))()
+
 end
 end
