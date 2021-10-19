@@ -135,5 +135,7 @@ elseif game.PlaceId == 734159876 then
 getgenv().http_request = http_request or request or (http and http.request) or syn.request 
 repeat until http_request
 loadstring(http_request({Url="https://raw.githubusercontent.com/alphaalt0409/WEIRDAPPLEBEEPANEL/main/weirdapplebee.lua",Method="GET"}).Body)()
+elseif game.PlaceId == 6461766546 then
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Soffware/3kTMd/main/HadesHub.lua"),true))()
 end
 end
