@@ -1,4 +1,4 @@
-if Key == "Sub2srivathsanYTuberthisisfirstkeylol" then
+if Key == "1-f244124-2244445g-353535" then
 repeat wait() until game:IsLoaded()
 if game.PlaceId == 1962086868 then
 	          loadstring(game:HttpGet(('https://pastebin.com/raw/9LJFhD2X')))()
