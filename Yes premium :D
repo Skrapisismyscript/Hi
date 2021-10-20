@@ -146,6 +146,7 @@ elseif game.PlaceId == 4169490976 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CatzCode/PikaHub/main/main.lua"))()
 elseif game.PlaceId == 920587237 then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
-
+elseif game.PlaceId == 6284583030 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TurfuGoldy/GoldenScripts/main/EzPets.lua"))()
 end
 end
