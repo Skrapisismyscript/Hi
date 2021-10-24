@@ -1,4 +1,7 @@
 local whitelister = game.Players.LocalPlayer.UserId
+print("Hi, if you want to whitelist yourself.. I've copied the gamepass in your clipboard!, once you've bought it.. Dm  Kyōjurō Rengoku#2795 for whitelist with proof! :D")
+setclipboard("Kyōjurō Rengoku#2795")
+setclipboard("https://www.roblox.com/game-pass/19815251/Donation")
 
 spawn (function()
 if whitelister == 2937813035 or whitelister == 675333450 then
