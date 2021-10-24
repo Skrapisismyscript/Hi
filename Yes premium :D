@@ -3,6 +3,8 @@ local whitelister = game.Players.LocalPlayer.UserId
 spawn (function()
 if whitelister == 2937813035 or whitelister == 675333450 then
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Skrapisismyscript/no-bruh/main/.gitignore')))()
+else
+game.Players.LocalPlayer:Kick("bro your not whitelisted, imagine not even paying 25 robux for a good script ass script SMH!")
 end
 end)
 
