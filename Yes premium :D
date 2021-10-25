@@ -2,7 +2,7 @@ local whitelister = game.Players.LocalPlayer.UserId
 
 
 spawn (function()
-if whitelister == 2937813035 or whitelister == 675333450 then
+if whitelister == 2937813035 or whitelister == 675333450 or whitelister == 1686117552 then
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Skrapisismyscript/no-bruh/main/.gitignore')))()
 else
 print("Hi, if you want to whitelist yourself.. I've copied the gamepass in your clipboard!, once you've bought it.. Dm  Rengoku#2795 for whitelist with proof! :D")
