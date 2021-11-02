@@ -1,14 +1,4 @@
 local whitelister = game.Players.LocalPlayer.UserId
 
 
-spawn (function()
-if whitelister == 2937813035 or whitelister == 675333450 or whitelister == 1686117552 or whitelister == 149740399 or whitelister == 2042808289 then
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Skrapisismyscript/no-bruh/main/.gitignore')))()
-else
-print("Hi, if you want to whitelist yourself.. I've copied the gamepass in your clipboard!, once you've bought it.. Dm  Rengoku#2795 for whitelist with proof! :D")
-
-setclipboard("https://www.roblox.com/game-pass/19815251/Donation")
-print("btw it's just 25 robux! and its copied to your clipboard, rengoku is pretty much online most of the time so whitelisting is realy easy. So just get it!")
-end
-end)
-
