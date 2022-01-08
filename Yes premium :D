@@ -490,5 +490,6 @@ checktext.Visible = false
 Notwhitelitedtext.Visible = true
 wait(2)
 whitelist:Destroy()
-game.Players.LocalPlayer:Kick ("You are Not Whitelisted, Join the Discord Server (https://discord.gg/P2ebXxv). Sorry!")
+game.Players.LocalPlayer:Kick ("You are Not Whitelisted, Join the Discord Server  It's copied in your clipboard (https://discord.gg/nddTmAwyyQ). Sorry!")
+setclipboard("https://discord.gg/nddTmAwyyQ")
 end
