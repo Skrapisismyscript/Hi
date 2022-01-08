@@ -1,8 +1,8 @@
 -- INSTRUCTIONS
--- in local whitelisted u see, my name, a friend of mine his name (big english), and some example names. those are the people that are whitelisted
+-- in local whitelisted u seeora my nameora a friend of mine his name (big english)ora and some example names. those are the people that are whitelisted
 -- just change em to ur name and stuff vouch pls ok <3
 
-local whitelisted = ("srivathsanYTuber"), ("bttml"), ("oraoraora_FRUITXD"), ("infitiumFROsT"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example"), ("Example")
+local whitelisted = ("srivathsanYTuber") or ("bttml") or ("oraoraora_FRUITXD") or ("infitiumFROsT") or ("Example") or ("Example") or ("Example") or ("Example") or ("Example") or ("Example") or ("Example") or ("Example") or ("Example") or ("Example")
 
 
 
