@@ -2,7 +2,7 @@
 -- in local whitelisted u seeora my nameora a friend of mine his name (big english)ora and some example names. those are the people that are whitelisted
 -- just change em to ur name and stuff vouch pls ok <3
 
-local whitelisted = ("srivathsanYTuber") or ("bttml") or ("oraoraora_FRUITXD") or ("infitiumFROsT") or ("Example") or ("Example") or ("Example") or ("Example") or ("Example") or ("Example") or ("Example") or ("Example") or ("Example") or ("Example")
+local whitelisted = ("srivathsanYTuber") or ("bttml") or ("oraoraora_FRUITXD") or ("Example") or ("Example") or ("Example") or ("Example") or ("Example") or ("Example") or ("Example") or ("Example") or ("Example") or ("Example") or ("Example")
 
 
 
@@ -470,7 +470,15 @@ loading.Rotation = 355
 wait(0.01)
 loading.Rotation = 360
 wait(0.01)
-if nonamexd == whitelisted then
+
+_G.Name = game.Players.LocalPlayer.Name
+if
+_G.Name == "srivathsanYTuber" or                 --There are various ways on how you can input the whitelist thought we perceived this format of whitelist users to be the most organized (in our opinion)
+_G.Name == "infitiumFROsT" or
+_G.Name == "Username3"                    -- you can add more whitelisted users here just copy and paste
+
+then
+print("whitelisted")
 checktext.Visible = false
 Whitelistedtext.Visible = true
 wait(1)
@@ -482,5 +490,5 @@ checktext.Visible = false
 Notwhitelitedtext.Visible = true
 wait(2)
 whitelist:Destroy()
-game.Players.LocalPlayer:kick "User is not whitelisted!"
+game.Players.LocalPlayer:Kick ("You are Not Whitelisted, Join the Discord Server (https://discord.gg/P2ebXxv). Sorry!")
 end
